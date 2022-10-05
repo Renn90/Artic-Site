@@ -1,5 +1,5 @@
 import React from "react";
-import '../japan.css'
+import './japan.css'
 
 const Alps = () => {
   return (
