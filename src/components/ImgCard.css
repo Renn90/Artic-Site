@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&family=Kaushan+Script&family=Montserrat+Alternates&family=Montserrat:wght@400;500&family=Pacifico&family=Poppins:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,200&display=swap");
+
+.regions {
+  display: flex;
+  flex-direction: column;
+  font-family: "Epilogue", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5px;
+  text-align: center;
+  width: 100%;
+  background-color: #fdfbfe;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.06' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.card {
+  padding: 100px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 30px;
+}
+.region-card {
+  display: flex;
+}
+.regions h3 {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+.regions p {
+  font-size: 18px;
+}
+.regions a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+.regions a:hover {
+  color: rgb(202, 201, 201);
+}
+.text {
+  font-size: 1.4rem;
+}
+button {
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  padding: 17px 25px;
+  margin: 5px;
+  background-color: #0077b6;
+  color: white;
+  border-radius: 5px;
+}
+@media (max-width: 920px) {
+  .region-card {
+    flex-direction: column;
+  }
+}
+@media (max-width: 300px) {
+  .card {
+    padding: 40px;
+  }
+}

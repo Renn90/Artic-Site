@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&family=Kaushan+Script&family=Montserrat+Alternates&family=Montserrat:wght@400;500&family=Pacifico&family=Poppins:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,200&display=swap");
+
+.logo-img {
+  width: 10em;
+  position: relative;
+  left: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.call {
+  justify-content: flex-end;
+  position: relative;
+  right: 10px;
+  color: rgba(0, 0, 0, 0.658);
+  font-family: "Epilogue", sans-serif;
+  font-weight: 600;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+  top: 0;
+  left: 0px;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 600;
+}
+.nav li {
+  list-style: none;
+  padding: 5px 55px;
+  cursor: pointer;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.menu {
+  display: flex;
+  position: relative;
+  margin: 10px;
+  justify-content: flex-end;
+}
+.menu-bars {
+  display: none;
+}
+@media (max-width: 800px) {
+  .menu-bars {
+    display: block;
+  }
+  .nav {
+    background-color: white;
+  }
+  .nav ul {
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    z-index: 999;
+    width: 50%;
+    justify-content: right;
+    right: -600px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .nav.active ul {
+    transform: translateY(0px);
+    right: 0;
+    transition-delay: 0.2s;
+  }
+  .nav li {
+    margin-bottom: 30px;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .nav li:nth-child(1) {
+    margin-top: 40px;
+  }
+  .header {
+    align-items: left;
+  }
+}
+@media (max-width: 500px) {
+  .call {
+    display: none;
+  }
+}

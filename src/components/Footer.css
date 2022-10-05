@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&family=Kaushan+Script&family=Montserrat+Alternates&family=Montserrat:wght@400;500&family=Pacifico&family=Poppins:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,200&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.footer {
+  font-family: "Epilogue", sans-serif;
+}
+.ft-section {
+  background-color: #fffdd044;
+  margin-top: 15px;
+}
+.news-letter {
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-letter input {
+  position: relative;
+  padding: 10px;
+  outline: none;
+}
+.form-field {
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.918);
+  padding: 14px;
+  border-radius: 4px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  align-items: top;
+}
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.logo-sec {
+  text-align: center;
+}
+.logo-img-footer {
+  width: 10em;
+  padding-top: 8px;
+  position: relative;
+  filter: invert(10%) sepia(56%) saturate(360%) hue-rotate(48deg)
+    brightness(30%) contrast(160%);
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  text-align: center;
+}
+.icons {
+  font-size: 20px;
+}
+.icons i {
+  padding: 4px;
+}
+@media (max-width: 1000px) {
+  .news-letter {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-links {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

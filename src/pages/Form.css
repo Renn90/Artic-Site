@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&family=Kaushan+Script&family=Montserrat+Alternates&family=Montserrat:wght@400;500&family=Pacifico&family=Poppins:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,200&display=swap");
+
+.form-pg {
+  margin-top: 100px;
+  height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 300px;
+}
+.form-bg-pg {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.form-bg-pg input {
+  border-radius: 3px;
+}
+.txt {
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  text-decoration: underline;
+}
