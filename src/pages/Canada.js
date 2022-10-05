@@ -1,4 +1,5 @@
 import React from "react";
+import "./Japan.css";
 
 const Canada = () => {
   return (
