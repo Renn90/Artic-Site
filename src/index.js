@@ -5,6 +5,16 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
+import { useNavigate } from 'react-router';
+
+export const withRouter = (Component) =>{
+    const Wrapper = (props) =>{
+        const history = useNavigate();
+        return <Component history={history} {...props}/>
+    } 
+    return Wrapper;
+}
+
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {
     if (this.props.location !== prevProps.location) {
