@@ -28,7 +28,7 @@ const MoreLodging = () => {
             </p>
             <a
               className="click-btn"
-              href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=YCWLRHX&arrivalDate=2022-08-05&departureDate=2022-08-06&room1NumAdults=2&viewPackagesAndPromotionsRate=True&WT.mc_id=zLADA0WW1XX2OLX3DA4MS5MS6_YCWLRHX7_139694006&dclid=CMn1rqiepPkCFRJHHQkd6mwOdQ"
+              href="/"
             >
               Check&nbsp;Availability
             </a>
@@ -61,7 +61,7 @@ const MoreLodging = () => {
             </p>
             <a
               className="click-btn"
-              href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=YCWLRHX&arrivalDate=2022-08-05&departureDate=2022-08-06&room1NumAdults=2&viewPackagesAndPromotionsRate=True&WT.mc_id=zLADA0WW1XX2OLX3DA4MS5MS6_YCWLRHX7_139694006&dclid=CMn1rqiepPkCFRJHHQkd6mwOdQ"
+              href="/"
             >
               Check&nbsp;Availability
             </a>
@@ -94,7 +94,7 @@ const MoreLodging = () => {
             </p>
             <a
               className="click-btn"
-              href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=YCWLRHX&arrivalDate=2022-08-05&departureDate=2022-08-06&room1NumAdults=2&viewPackagesAndPromotionsRate=True&WT.mc_id=zLADA0WW1XX2OLX3DA4MS5MS6_YCWLRHX7_139694006&dclid=CMn1rqiepPkCFRJHHQkd6mwOdQ"
+              href="/"
             >
               Check&nbsp;Availability
             </a>
@@ -127,7 +127,7 @@ const MoreLodging = () => {
             </p>
             <a
               className="click-btn"
-              href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=YCWLRHX&arrivalDate=2022-08-05&departureDate=2022-08-06&room1NumAdults=2&viewPackagesAndPromotionsRate=True&WT.mc_id=zLADA0WW1XX2OLX3DA4MS5MS6_YCWLRHX7_139694006&dclid=CMn1rqiepPkCFRJHHQkd6mwOdQ"
+              href="/"
             >
               Check&nbsp;Availability
             </a>
