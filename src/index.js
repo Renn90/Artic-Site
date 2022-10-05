@@ -5,36 +5,24 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
-import { useNavigate } from 'react-router';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-export const withRouter = (Component) =>{
-    const Wrapper = (props) =>{
-        const history = useNavigate();
-        return <Component history={history} {...props}/>
-    } 
-    return Wrapper;
+export default function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
 }
-
-class ScrollToTop extends Component {
-  componentDidUpdate(prevProps) {
-    if (this.props.location !== prevProps.location) {
-      window.scrollTo(0, 0)
-    }
-  }
-
-  render() {
-    return this.props.children
-  }
-}
-
-export default withRouter(ScrollToTop)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-  <ScrollToTop>
+  <ScrollToTop />
     <App />
-  </ScrollToTop>
   </BrowserRouter>
 );
 
