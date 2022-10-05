@@ -24,3 +24,9 @@
   font-family: "Epilogue", sans-serif;
   text-decoration: underline;
 }
+a{
+  text-decoration: none;
+}
+.call-to-action-pg{
+  text-decoration: none!important;
+}

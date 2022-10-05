@@ -5,7 +5,7 @@ const Form = () => {
     <div
       className="form-pg"
       style={{
-        backgroundImage: `url("./images/ski-img.jpg")`,
+        backgroundImage: `url("./images/ski-img.webp")`,
       }}
     >
       <div className="form-bg-pg">
